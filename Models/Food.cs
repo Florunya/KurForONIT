@@ -1,0 +1,12 @@
+﻿using System;
+namespace Kur.Models
+{
+    public class Food
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Calories { get; set; }
+        public string Type { get; set; }
+        public string Price { get; set; }
+    }
+}
